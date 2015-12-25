@@ -1,0 +1,27 @@
+sudo apt-get update
+wget http://www.noip.com/client/linux/noip-duc-linux.tar.gz
+tar -xvf noip-duc-linux.tar.gz
+make
+
+sudo apt-get install flask
+sudo apt-get install pip
+pip install --upgrade pip
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python get-pip.py
+sudo pip install Flask
+sudo apt-get install avahi-daemon
+
+sudo apt-get install netatalk
+sudo apt-get install fbi
+sudo apt-get install fim
+sudo apt-get install tightvncserver
+wget http://space.jerobeamfenderson.net/howtodrawmushrooms.wav
+sudo apt-get install mpg123
+aplay howtodrawmushrooms.wav
+sudo apt-get install phonon
+sudo apt-get install xoscope
+sudo apt-get install python-dev
+pip install alsaaudio
+sudo apt-get install libasound2-dev
+sudo python setup.py build
+sudo python setup.py install
