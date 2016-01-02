@@ -27,6 +27,7 @@ sudo python setup.py build
 sudo python setup.py install
 sudo apt-get install octave
 sudo apt-get install git-gui
+sudo apt-get install mirage
 
 
 
